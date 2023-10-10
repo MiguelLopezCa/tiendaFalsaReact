@@ -1,0 +1,34 @@
+.sectionCard{
+  padding: 30px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+.card{
+  width: 300px;
+  height: 300px;
+  background-color: #ffffff;
+  border-radius: 15px;
+  border: 1px solid rgb(182, 182, 182);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+.btnCart{
+  margin-top: 15px;
+  outline: none;
+  border: none;
+  padding: .8em 1em;
+  border-radius: 15px;
+  color: #ffffff;
+  background-color: rgb(24, 44, 69);
+  cursor: pointer;
+}
+
+.btnCart:hover{
+  background-color: rgb(77, 104, 145);
+}
